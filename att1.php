@@ -3,15 +3,15 @@
 class Animal
 {
     //setando os atributos
-    public $nome;
+    public $especie;
     public $patas;
     public $pele;
     public $voa;
 
     //construtor
-    function __construct($nom, $pa, $pe, $voa)
+    function __construct($esp, $pa, $pe, $voa)
     {
-        $this->nome = $nom;
+        $this->especie = $esp;
         $this->patas = $pa;
         $this->pele = $pe;
         $this->voa = $voa;
