@@ -71,12 +71,13 @@ $pokemon2 = new Pokemon("Zoroark", "Dark", "Lutador, Inseto e Fada", 81, 160, 10
 
 $pokemon1->imprimirDados();
 $pokemon1->atacar();
+$pokemon1->upar();
 $pokemon1->curar();
 $pokemon1->batalhar();
-$pokemon1->upar();
+
 
 $pokemon2->imprimirDados();
 $pokemon2->atacar();
+$pokemon1->upar();
 $pokemon2->curar();
 $pokemon2->batalhar();
-$pokemon2->upar();
