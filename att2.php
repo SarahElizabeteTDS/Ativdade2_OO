@@ -50,11 +50,9 @@ class Pokemon
         $escolha = readline("Você escolhe: \n1.ATACAR\n2.CURAR\n");
         if ($escolha == 1) 
         {
-            print "Você atacou e deu " . $var . " de dano.\n\n";
-            $this -> vida -= $var;
+            $this->atacar();
         }else if($escolha == 2){
-            print "Você se curou e recebeu " . $var . " de vida.\n\n";
-            $this -> vida += $var;
+            $this->curar();
         }else{
             print "Opcao Invalida. Insira novamente\n";
             $escolha = readline("Você escolhe: \n1.ATACAR\n2.CURAR\n");
